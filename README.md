@@ -12,17 +12,17 @@ Take content (Markdown) + style encoding and generate slides programmatically, w
 
 | Document | Description |
 |----------|-------------|
-| [[CLAUDE.md]] | **AI Assistant Context** - Architecture, decisions, development guidelines |
-| [[agents.md]] | **Multi-Agent Workflows** - Coordination guide for AI assistants |
+| [CLAUDE.md](CLAUDE.md) | **AI Assistant Context** - Architecture, decisions, development guidelines |
+| [agents.md](agents.md) | **Multi-Agent Workflows** - Coordination guide for AI assistants |
 
 ## Research Documents
 
 | Document | Description |
 |----------|-------------|
-| [[research-claude-pptx]] | Claude Code's official PowerPoint skill - capabilities, workflows, limitations |
-| [[research-google-slides-api]] | Google Apps Script Slides API - full capabilities, code examples, best practices |
-| [[slides-interoperability]] | Cross-format compatibility - what survives PPTX ↔ Google Slides conversion |
-| [[markdown-to-slides]] | Strategies for parsing Markdown into slide structures |
+| [research-claude-pptx.md](research-claude-pptx.md) | Claude Code's official PowerPoint skill - capabilities, workflows, limitations |
+| [research-google-slides-api.md](research-google-slides-api.md) | Google Apps Script Slides API - full capabilities, code examples, best practices |
+| [slides-interoperability.md](slides-interoperability.md) | Cross-format compatibility - what survives PPTX ↔ Google Slides conversion |
+| [markdown-to-slides.md](markdown-to-slides.md) | Strategies for parsing Markdown into slide structures |
 
 ---
 

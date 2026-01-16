@@ -3,7 +3,7 @@
 **Strategies for parsing Markdown content into slide structures**
 
 **Last Updated**: 2026-01-15
-**Related**: [[research-claude-pptx]] | [[research-google-slides-api]] | [[slides-interoperability]]
+**Related**: [research-claude-pptx.md](research-claude-pptx.md) | [research-google-slides-api.md](research-google-slides-api.md) | [slides-interoperability.md](slides-interoperability.md)
 
 ---
 
@@ -557,7 +557,7 @@ pandoc slides.md -o slides.pptx
 2. **Custom delimiter handling** - Support `---` and `# heading` as slide breaks
 3. **Speaker notes via comments** - `<!-- notes: ... -->` syntax
 4. **Output to content model** - Platform-agnostic representation
-5. **Generate via API** - Use [[research-google-slides-api]] or [[research-claude-pptx]]
+5. **Generate via API** - Use [research-google-slides-api.md](research-google-slides-api.md) or [research-claude-pptx.md](research-claude-pptx.md)
 
 ### Sample Implementation Outline
 
@@ -577,9 +577,9 @@ src/
 
 ## Related Documents
 
-- [[research-claude-pptx]] - Claude PPTX generation for output
-- [[research-google-slides-api]] - Google Slides API for output
-- [[slides-interoperability]] - What content survives format conversion
+- [research-claude-pptx.md](research-claude-pptx.md) - Claude PPTX generation for output
+- [research-google-slides-api.md](research-google-slides-api.md) - Google Slides API for output
+- [slides-interoperability.md](slides-interoperability.md) - What content survives format conversion
 
 ---
 

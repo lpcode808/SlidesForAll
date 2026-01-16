@@ -3,7 +3,7 @@
 **Cross-format compatibility between PowerPoint (.pptx) and Google Slides**
 
 **Last Updated**: 2026-01-15
-**Related**: [[research-claude-pptx]] | [[research-google-slides-api]] | [[markdown-to-slides]]
+**Related**: [research-claude-pptx.md](research-claude-pptx.md) | [research-google-slides-api.md](research-google-slides-api.md) | [markdown-to-slides.md](markdown-to-slides.md)
 
 ---
 
@@ -285,9 +285,9 @@ function validateConversion(originalId, importedId) {
 
 ## Related Documents
 
-- [[research-claude-pptx]] - Claude's PPTX generation capabilities
-- [[research-google-slides-api]] - Google Slides API deep dive
-- [[markdown-to-slides]] - Parsing markdown into slide content
+- [research-claude-pptx.md](research-claude-pptx.md) - Claude's PPTX generation capabilities
+- [research-google-slides-api.md](research-google-slides-api.md) - Google Slides API deep dive
+- [markdown-to-slides.md](markdown-to-slides.md) - Parsing markdown into slide content
 
 ---
 

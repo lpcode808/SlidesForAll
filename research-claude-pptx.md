@@ -2,7 +2,7 @@
 
 **Research Date:** 2026-01-15
 **Status:** Complete
-**Related:** [[research-google-slides-api]] | [[slides-interoperability]] | [[markdown-to-slides]] | [[python-pptx-library]]
+**Related:** [research-google-slides-api.md](research-google-slides-api.md) | [slides-interoperability.md](slides-interoperability.md) | [markdown-to-slides.md](markdown-to-slides.md)
 
 ---
 
@@ -427,7 +427,9 @@ The skill includes 17+ predefined color palettes:
 | Debugging | Abstract | Direct |
 | Customization | Constrained | Unlimited |
 
-### vs [[Google Slides API]]
+### vs Google Slides API
+
+See [research-google-slides-api.md](research-google-slides-api.md) for full comparison.
 
 | Aspect | Claude PPTX | Google Slides API |
 |--------|-------------|-------------------|
@@ -438,7 +440,9 @@ The skill includes 17+ predefined color palettes:
 | Offline support | Full | Limited |
 | Version control | Manual | Automatic |
 
-### vs [[Marp]] / [[Slidev]] / [[reveal.js]]
+### vs Marp / Slidev / reveal.js
+
+See [markdown-to-slides.md](markdown-to-slides.md) for Markdown parsing approaches.
 
 | Aspect | Claude PPTX | Markdown-to-Slides |
 |--------|-------------|-------------------|
@@ -628,10 +632,10 @@ response = client.beta.messages.create(
 - [PptxGenJS Documentation](https://gitbrent.github.io/PptxGenJS/)
 
 ### Related Research
-- [[research-google-slides-api]] - Google Slides API capabilities
-- [[slides-interoperability]] - Format conversion strategies
-- [[markdown-to-slides]] - Marp, Slidev, reveal.js comparison
-- [[python-pptx-library]] - Direct python-pptx usage patterns
+- [research-google-slides-api.md](research-google-slides-api.md) - Google Slides API capabilities
+- [slides-interoperability.md](slides-interoperability.md) - Format conversion strategies
+- [markdown-to-slides.md](markdown-to-slides.md) - Marp, Slidev, reveal.js comparison
+- [python-pptx Documentation](https://python-pptx.readthedocs.io/) - Direct python-pptx usage patterns
 
 ---
 

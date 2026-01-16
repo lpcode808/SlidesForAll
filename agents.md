@@ -296,7 +296,7 @@ Before committing code, verify:
 Before updating docs, verify:
 
 - [ ] No contradictions with existing docs
-- [ ] Links to related docs included (`[[wikilinks]]` style)
+- [ ] Links to related docs included (Markdown link style)
 - [ ] Examples are tested and accurate
 - [ ] Limitations clearly stated
 - [ ] Last updated date set

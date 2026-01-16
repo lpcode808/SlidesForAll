@@ -4,7 +4,7 @@ This document provides comprehensive research on the Google Slides API accessed 
 
 **Last Updated**: 2026-01-15
 **Research Status**: Complete
-**Related Documents**: [[research-claude-pptx]], [[slides-interoperability]], [[markdown-to-slides]]
+**Related Documents**: [research-claude-pptx.md](research-claude-pptx.md), [slides-interoperability.md](slides-interoperability.md), [markdown-to-slides.md](markdown-to-slides.md)
 
 ---
 
@@ -837,7 +837,7 @@ When converting from PPTX to Google Slides, some features may not transfer:
 - Vector graphics
 - Macros/VBA
 
-See [[slides-interoperability]] for detailed compatibility notes.
+See [slides-interoperability.md](slides-interoperability.md) for detailed compatibility notes.
 
 ---
 
@@ -1428,7 +1428,7 @@ Consider a **hybrid approach**:
 2. Use direct PPTX generation (via Claude or python-pptx) for animation-heavy presentations
 3. Provide export/import between formats with clear feature compatibility notes
 
-See [[research-claude-pptx]] for Claude's PPTX capabilities and [[slides-interoperability]] for format conversion details.
+See [research-claude-pptx.md](research-claude-pptx.md) for Claude's PPTX capabilities and [slides-interoperability.md](slides-interoperability.md) for format conversion details.
 
 ---
 
@@ -1464,9 +1464,9 @@ See [[research-claude-pptx]] for Claude's PPTX capabilities and [[slides-interop
 
 ### Related Project Documents
 
-- [[research-claude-pptx]] - Claude's PPTX generation capabilities
-- [[slides-interoperability]] - Cross-format compatibility matrix
-- [[markdown-to-slides]] - Markdown parsing for slide content
+- [research-claude-pptx.md](research-claude-pptx.md) - Claude's PPTX generation capabilities
+- [slides-interoperability.md](slides-interoperability.md) - Cross-format compatibility matrix
+- [markdown-to-slides.md](markdown-to-slides.md) - Markdown parsing for slide content
 
 ---
 
@@ -1496,12 +1496,12 @@ See [[research-claude-pptx]] for Claude's PPTX capabilities and [[slides-interop
 
 ### Recommended Architecture for SlidesForAll
 
-1. **Input Processing**: Parse markdown/structured content into slide data model (see [[markdown-to-slides]])
+1. **Input Processing**: Parse markdown/structured content into slide data model (see [markdown-to-slides.md](markdown-to-slides.md))
 2. **Template Selection**: Match content to appropriate predefined layouts or custom templates
 3. **Batch Generation**: Use Advanced Slides Service with batch updates for efficiency
 4. **Export Options**: Provide PPTX and PDF export via Drive API URL endpoints
 5. **Preview**: Use thumbnail API for slide previews (note: 60 requests/min/user limit)
-6. **Hybrid Strategy**: Consider direct PPTX generation for animation-heavy presentations (see [[research-claude-pptx]])
+6. **Hybrid Strategy**: Consider direct PPTX generation for animation-heavy presentations (see [research-claude-pptx.md](research-claude-pptx.md))
 
 ### Decision Matrix: Google Slides API vs Direct PPTX
 
@@ -1515,4 +1515,4 @@ See [[research-claude-pptx]] for Claude's PPTX capabilities and [[slides-interop
 | Custom page sizes | Direct PPTX generation |
 | K-12 classroom use | Google Slides API (collaboration features) |
 
-See [[slides-interoperability]] for format conversion strategies and [[markdown-to-slides]] for content parsing approaches.
+See [slides-interoperability.md](slides-interoperability.md) for format conversion strategies and [markdown-to-slides.md](markdown-to-slides.md) for content parsing approaches.
